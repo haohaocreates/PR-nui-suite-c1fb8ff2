@@ -1,0 +1,15 @@
+[project]
+name = "nui-suite"
+description = "NODES: Dynamic Prompts Text Encode, Feeling Lucky Text Encode, Output String"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["dynamicprompts[attentiongrabber,magicprompt]==0.23.0"]
+
+[project.urls]
+Repository = "https://github.com/space-nuko/nui-suite"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "nui-suite"
+Icon = ""
